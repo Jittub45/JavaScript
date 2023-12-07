@@ -9,7 +9,6 @@ accountCity = "Phagwara"
 // console.log(accountId)
 
 accoutnEmail = "jit@google.com"
-accountPass
 accountCity = "Hyderabad"
 
 console.table([accountId,accoutnEmail,accountPass,accountCity])
