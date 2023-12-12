@@ -38,11 +38,11 @@ const user = {
     price: 0
 }
 
-let details = {
-    firstName: "Jitendra",
-    lastName: "kumar",
-    contact:6304948909
-}
+// let details = {
+//     firstName: "Jitendra",
+//     lastName: "kumar",
+//     contact:6304948909
+// }
 
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and the price is ${anyobject.price}`);
@@ -55,4 +55,9 @@ function myDetails(objects){
     return det;
 }
 
-console.log(myDetails(details))
+// console.log(myDetails(details))
+console.log(myDetails({
+    firstName: "Jitendra",
+    lastName: "kumar",
+    contact:6304948909
+}))
